@@ -30,7 +30,7 @@ monitors:
     url: 'https://www.cf-testing.com/'
     method: GET
     expectStatus: 200
-    followRedirect: true
+    followRedirect: false
     linkable: true
     
   - id: davidtofan-com
