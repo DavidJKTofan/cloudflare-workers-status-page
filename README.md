@@ -1,3 +1,12 @@
+# First things first...
+
+Thank you @eidam for your amazing Repo :) 
+
+I was playing around before with status page and Workers, but obviously it's not as pretty, as you can see here: https://status-page.cf-testing.workers.dev/
+
+* * * * *
+
+
 # Cloudflare Worker - Status Page
 
 Monitor your websites, showcase status including daily history, and get Slack notification whenever your website status changes. Using **Cloudflare Workers**, **CRON Triggers,** and **KV storage**. Check [my status page](https://status-page.eidam.dev) out! 🚀
