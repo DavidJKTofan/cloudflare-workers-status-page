@@ -40,6 +40,8 @@ export async function processCronTrigger(event) {
     }
 
     console.log(`Checking ${monitor.name} ...`)
+    // Checking expected status
+    console.log(`Status: ${monitor.expectStatus}.`)
 
     // Fetch the monitors URL
     const init = {
