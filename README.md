@@ -4,6 +4,10 @@ Thank you @eidam for your amazing Repo :)
 
 I was playing around before with status page and Workers, but obviously it's not as pretty, as you can see here: https://status-page.cf-testing.workers.dev/
 
+## Cron Triggers
+
+"Cron Triggers are designed to run in under-utilised locations, which is determined internally by Cloudflare. It is not possible currently to choose which Colo they will run in."
+
 * * * * *
 
 
