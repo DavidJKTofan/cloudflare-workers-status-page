@@ -27,15 +27,6 @@ monitors:
   - id: cf-testing-com
     name: Cloudflare Playground
     description: 'A playground and overview on Cloudflare security, performance, and serverless solutions, all of which help build a better Internet.'
-    url: 'https://www.cf-testing.com'
-    method: GET
-    expectStatus: 200
-    followRedirect: false
-    linkable: true
-
-  - id: cf-testing-com
-    name: Cloudflare Playground
-    description: 'A playground and overview on Cloudflare security, performance, and serverless solutions, all of which help build a better Internet.'
     url: 'https://www.cf-testing.com/index.html'
     method: GET
     expectStatus: 200
@@ -59,3 +50,12 @@ monitors:
     expectStatus: 200
     followRedirect: true
     linkable: true
+
+  - id: company-research-io
+    name: company-research.io
+    description: 'Get a brief overview on public websites and create a comprehensive centralized report on the most relevant information.'
+    url: 'https://company-research.io/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: false
