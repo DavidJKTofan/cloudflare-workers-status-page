@@ -59,3 +59,12 @@ monitors:
     expectStatus: 200
     followRedirect: false
     linkable: false
+
+  - id: cyberscoops.io
+    name: cyberscoops.io
+    description: 'Learn how to navigate the Internet in a secure and private way.'
+    url: 'https://cyberscoops.io/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: false
